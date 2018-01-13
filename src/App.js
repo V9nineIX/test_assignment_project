@@ -38,29 +38,41 @@ class App extends Component {
                         </div>
                       </div>
                     </MediaQuery>
-
-                    <MediaQuery query="(max-device-width: 1224px)">
-                      {/*  for mobile device   */}
-                      <div className="col">
-
-                      </div>
-                    </MediaQuery>
-
              
 
                     <div className="col">
 
-                     <a className="navbar-brand" href="#">EN</a>
-                        <a className="navbar-brand" href="#">
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                        </a>
-                        <a className="navbar-brand" href="#">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                        </a>
-                        <a className="navbar-brand" href="#">
-                        <i class="fa fa-bars" aria-hidden="true"></i>
-                        </a>
 
+                    <MediaQuery query="(min-device-width: 1224px)">
+                       <a className="navbar-brand" href="#">EN</a>
+                              <a className="navbar-brand" href="#">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+                              </a>
+                              <a className="navbar-brand" href="#">
+                              <i class="fa fa-search" aria-hidden="true"></i>
+                              </a>
+                              <a className="navbar-brand" href="#">
+                              <i class="fa fa-bars" aria-hidden="true"></i>
+                              </a>
+                      </MediaQuery>
+
+
+                    <MediaQuery query="(max-device-width: 1224px)">
+                    <div className="d-flex align-items-center justify-content-center">
+                      <div className="d-flex">
+                       <a className="navbar-brand" href="#">EN</a>
+                              <a className="navbar-brand" href="#">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+                              </a>
+                              <a className="navbar-brand" href="#">
+                              <i class="fa fa-search" aria-hidden="true"></i>
+                              </a>
+                              <a className="navbar-brand" href="#">
+                              <i class="fa fa-bars" aria-hidden="true"></i>
+                              </a>
+                            </div>
+                        </div>
+                      </MediaQuery>
 
                     </div>
 

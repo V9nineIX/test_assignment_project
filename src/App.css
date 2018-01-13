@@ -1,8 +1,9 @@
 
 
  .header-text h1{
-  font-size: 3.9em;
+  font-size: 3.4rem;
   margin-top: 5px;
+  margin-left: 0.1em;
 }
 
 
@@ -45,6 +46,15 @@ h1, h2, h3, h4, h5, h6 ,.btn {
 .top-menu a{
   color:#959998;
    font-size: 1.2em;
+   padding: 5px;
+}
+
+.top-menu a:hover{
+   color:#F1F1F1;
+   background:#963cbf;
+   border-bottom: 1px  #B858F3 solid;
+
+
 }
 
 
@@ -52,7 +62,7 @@ h1, h2, h3, h4, h5, h6 ,.btn {
    height: 100px;
 }
 .header-logo{
-  width: 80% !important;
+  width: 3rem
 }
 
 
